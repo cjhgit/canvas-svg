@@ -1,0 +1,107 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=8" />
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <meta http-equiv="Cache-Control" content="no-cache,must-revalidate" />
+
+    <link rel="stylesheet" href="asset/lib/eui/16.12/ui.min.css">
+    <style type="text/css">
+        body {
+            padding-top: 60px;
+            padding-bottom: 40px;
+        }
+        .sidebar-nav {
+            padding: 9px 0;
+        }
+
+        @media (max-width: 980px) {
+            /* Enable use of floated navbar text */
+            .navbar-text.pull-right {
+                float: none;
+                padding-left: 5px;
+                padding-right: 5px;
+            }
+        }
+    </style>
+    <link href="./css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="./css/jquery.snippet.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="container-fluid">
+    <div class="row-fluid">
+        <div class="span3">
+        </div><!--/span-->
+        <div class="span9">
+            <canvas id="canvas" style="" width="800" height="500"></canvas>
+        </div><!--/span-->
+    </div><!--/row-->
+
+
+    <script src="asset/lib/jquery/jquery-1.10.2.min.js"></script>
+
+
+    <script src="src/fucksvg.js"></script>
+    <script src="src/fucksvg.element.js"></script>
+    <script src="src/fucksvg.abstractnode.js"></script>
+    <script src="src/fucksvg.animation.js"></script>
+    <script src="src/fucksvg.container.js"></script>
+    <script src="src/fucksvg.layout.js"></script>
+    <script src="src/fucksvg.link.js"></script>
+    <script src="src/fucksvg.node.js"></script>
+    <script src="src/fucksvg.util.js"></script>
+    <script src="src/fucksvg.databox.js"></script>
+
+    <script id='code'>
+
+        var box = new Fucksvg.DataBox('dataBox', $("#canvas")[0]);
+        box.isShowRange = false;
+
+        var node = new Fucksvg.Node('Hello world!');
+        node.setLocation(0, 0);
+        box.add(node);
+
+        var defaultNode = new Fucksvg.Node('Node');
+        defaultNode.setLocation(200, 100);
+        defaultNode.rotate = Math.PI/10;
+        box.add(defaultNode);
+
+        var tipNode = new Fucksvg.TipNode('a tip.');
+        tipNode.setLocation(540, 100);
+        box.add(tipNode);
+
+        var textNode = new Fucksvg.TextNode('This is a Text node.');
+        textNode.setLocation(317, 310);
+        box.add(textNode);
+
+        var peopleNode = new Fucksvg.Node('people');
+        peopleNode.setLocation(500, 200);
+        peopleNode.setSize(64, 64);
+        peopleNode.setImage('./img/person.png');
+        box.add(peopleNode);
+
+        var circleNode = new Fucksvg.CircleNode()
+        circleNode.style.fillStyle = '0, 0, 255';
+        circleNode.setLocation(390, 90);
+        box.add(circleNode);
+
+        var heartNode = new Fucksvg.HeartNode();
+        heartNode.style.fillStyle = '255, 0, 0';
+        heartNode.setLocation(300, 170);
+        box.add(heartNode);
+
+        box.updateView();
+    </script>
+    <style>
+        canvas {
+            background-color:#EEEEEE;
+            border:1px solid #444;
+        }
+    </style>
+</div><!--/.fluid-container-->
+
+</body>
+</html>

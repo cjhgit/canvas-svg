@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ead28ccc-046c-4692-8c1d-2d42e97f2c6b" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/asset/lib/eui/16.12/iconfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/asset/lib/eui/16.12/iconfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/asset/lib/eui/16.12/iconfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/img/OS_Apple.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/img/OS_Ubuntu.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/img/OS_Windows_8.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/img/acer-samll.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/img/bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/img/building.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/img/cloud.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/img/cutfruit.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/img/cutfruit_bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/img/delivery.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/img/email.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/img/fruit/apple.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/img/fruit/background.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/img/fruit/banana.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/img/fruit/basaha.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/img/fruit/boom.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/img/fruit/developing.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/img/fruit/dojo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/img/fruit/flash.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/img/fruit/flash_bak.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/img/fruit/game-over.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/img/fruit/home-desc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/img/fruit/home-mask.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/img/fruit/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/img/fruit/lose.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/img/fruit/new-game.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/img/fruit/new.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/img/fruit/ninja.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/img/fruit/peach.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/img/fruit/quit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/img/fruit/sandia.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/img/fruit/score.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/img/fruit/xxxf.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/img/harddisk.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/img/helpdesk.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/img/home.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/img/host.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/img/laptop.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/img/memory.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/img/ne.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/img/new-game.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/img/ok.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/img/person.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/img/phone/IE.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/img/phone/Karate.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/img/phone/SMS.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/img/phone/Setup.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/img/phone/bullets.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/img/phone/power.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/img/phone/signal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/img/phone/usb.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/img/phone/writing.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/img/print.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/img/qq.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/img/room.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/img/telephone.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/img/vm.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/img/vm_inner.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/img/zone.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/sound/boom.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/sound/boom.ogg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/sound/menu.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/sound/menu.ogg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/sound/over.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/sound/over.ogg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/sound/splatter.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/sound/splatter.ogg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/sound/start.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/sound/start.ogg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/sound/throw.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/sound/throw.ogg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/asset/lib/eui/16.12/contextmenu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/asset/lib/eui/16.12/eui-mobile.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/asset/lib/eui/16.12/eui-mobile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/asset/lib/eui/16.12/iconfont.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/asset/lib/eui/16.12/iconfont.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/asset/lib/eui/16.12/iconfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/asset/lib/eui/16.12/range.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/asset/lib/eui/16.12/range.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/asset/lib/eui/16.12/ui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/asset/lib/eui/16.12/ui.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/asset/lib/eui/16.12/ui.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/asset/lib/eui/16.12/ui.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/asset/lib/jquery/jquery-1.10.2.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/asset/lib/jquery/jquery-3.1.1.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/asset/lib/jquery/jquery-3.1.1.slim.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/3d.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/about.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/animation.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/contact.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/container.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/container2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/css/bootstrap-responsive.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/css/jquery.snippet.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/cutFruit.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/dev.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/device.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/diy.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/gravitate.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/js/animation.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/js/dev.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/js/excanvas.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/js/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/js/jtopo-0.3.0-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/js/menu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/js/snippet/jquery.snippet.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/keyboard.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/link.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/mix.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/mix2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/mix3.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/mix4.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/mouse.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/node.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/nodeDown.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/real.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/rotate.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/star.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/star2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/star3.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/star4.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/tree.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/tree2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/tree3.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/umlNode.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fucksvg.js" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="animation.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/samples/animation.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="39" column="27" lean-forward="false" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="570">
+              <caret line="57" column="22" lean-forward="false" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/samples/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="44" column="55" lean-forward="true" selection-start-line="35" selection-start-column="6" selection-end-line="44" selection-end-column="55" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fucksvg.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src2/fucksvg.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="20" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>J</find>
+      <find>JT</find>
+      <find>JTo</find>
+      <find>JTopo</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>G:\install\apache2.4\htdocs\yunser\tool\jtopo</dir>
+      <dir>G:\install\apache2.4\htdocs\yunser\tool\jtopo\src</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/fucksvg.layout.js" />
+        <option value="$PROJECT_DIR$/src/fucksvg.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/samples/index.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jtopo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jtopo" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jtopo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jtopo" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src2" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\install\apache2.4\htdocs\yunser\tool\jtopo\src" />
+      <recent name="G:\install\apache2.4\htdocs\yunser\tool\jtopo" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="CodeceptionConfigurationType" factoryName="Codeception">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ead28ccc-046c-4692-8c1d-2d42e97f2c6b" name="Default" comment="" />
+      <created>1498148171299</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1498148171299</updated>
+      <workItem from="1498148172799" duration="2533000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2533000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/fucksvg.layout.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="10" lean-forward="false" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fucksvg.link.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11">
+          <caret line="225" column="48" lean-forward="true" selection-start-line="225" selection-start-column="48" selection-end-line="225" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fucksvg.element.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="49">
+          <caret line="278" column="21" lean-forward="true" selection-start-line="278" selection-start-column="21" selection-end-line="278" selection-end-column="21" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples/animation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="39" column="27" lean-forward="false" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fucksvg.databox.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="442" column="16" lean-forward="false" selection-start-line="442" selection-start-column="12" selection-end-line="442" selection-end-column="16" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fucksvg.container.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src2/fucksvg.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="20" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fucksvg.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="57" column="22" lean-forward="false" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="44" column="55" lean-forward="true" selection-start-line="35" selection-start-column="6" selection-end-line="44" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
