@@ -5,29 +5,31 @@
 
 (function(Fucksvg){
 
-	function Link(nodeA, nodeB) {
-		this.nodeA = nodeA;
-		this.nodeB = nodeB;
-		this.style = {strokeStyle: '116, 166, 250', alpha: 1, lineWidth: 2};
-	};
+	class Link extends Fucksvg.Element {
+	    constructor(nodeA, nodeB) {
+	        super();
 
-	Link.prototype = new Fucksvg.Element();
+            this.nodeA = nodeA;
+            this.nodeB = nodeB;
+            this.style = {strokeStyle: '116, 166, 250', alpha: 1, lineWidth: 2};
+        }
 
-	Link.prototype.draw = function (ctx) {
-		ctx.save();
-		ctx.beginPath();
-		ctx.strokeStyle = 'rgba(' + this.style.strokeStyle + ',' + this.style.alpha + ')';
-		ctx.lineWidth = this.style.lineWidth;
-		ctx.moveTo(this.nodeA.x + this.nodeA.width / 2, this.nodeA.y + this.nodeA.height / 2);
-		ctx.lineTo(this.nodeB.x + this.nodeB.width / 2, this.nodeB.y + this.nodeB.height / 2);
-		ctx.stroke();
-		ctx.closePath();
-		ctx.restore();
-	};
+        draw(ctx) {
+            ctx.save();
+            ctx.beginPath();
+            ctx.strokeStyle = 'rgba(' + this.style.strokeStyle + ',' + this.style.alpha + ')';
+            ctx.lineWidth = this.style.lineWidth;
+            ctx.moveTo(this.nodeA.x + this.nodeA.width / 2, this.nodeA.y + this.nodeA.height / 2);
+            ctx.lineTo(this.nodeB.x + this.nodeB.width / 2, this.nodeB.y + this.nodeB.height / 2);
+            ctx.stroke();
+            ctx.closePath();
+            ctx.restore();
+        }
 
-	Link.prototype.getLength = function(){
-		return getDistance(this.nodeA , this.nodeB);
-	};
+        getLength() {
+            return getDistance(this.nodeA , this.nodeB);
+        }
+    }
 
 	function FoldLink(nodeA, nodeB) {
 		var link = new Fucksvg.Link(nodeA, nodeB);

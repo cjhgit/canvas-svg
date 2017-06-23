@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/jtopo.iml" filepath="$PROJECT_DIR$/.idea/jtopo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/canvas-svg.iml" filepath="$PROJECT_DIR$/.idea/canvas-svg.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../eui-vue/.idea/eui-vue.iml" filepath="$PROJECT_DIR$/../eui-vue/.idea/eui-vue.iml" />
+      <module fileurl="file://C:\project\canvas-svg\.idea\jtopo.iml" filepath="C:\project\canvas-svg\.idea\jtopo.iml" />
     </modules>
   </component>
 </project>

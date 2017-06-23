@@ -1,121 +1,186 @@
 
 <!DOCTYPE html>
 <html>
-  <head>
-	<meta http-equiv="X-UA-Compatible" content="IE=8" />
-	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
-	<meta http-equiv="Cache-Control" content="no-cache,must-revalidate" />
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=8" />
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <meta http-equiv="Cache-Control" content="no-cache,must-revalidate" />
 
     <!-- Le styles -->
-    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../asset/lib/eui/16.12/ui.min.css">
+    <!--<link href="./css/bootstrap.min.css" rel="stylesheet">-->
     <style type="text/css">
-      body {
-        padding-top: 60px;
-        padding-bottom: 40px;
-      }
-      .sidebar-nav {
-        padding: 9px 0;
-      }
-
-      @media (max-width: 980px) {
-        /* Enable use of floated navbar text */
-        .navbar-text.pull-right {
-          float: none;
-          padding-left: 5px;
-          padding-right: 5px;
+        body {
+            padding-top: 60px;
+            padding-bottom: 40px;
         }
-      }
+        .sidebar-nav {
+            padding: 9px 0;
+        }
+
+        @media (max-width: 980px) {
+            /* Enable use of floated navbar text */
+            .navbar-text.pull-right {
+                float: none;
+                padding-left: 5px;
+                padding-right: 5px;
+            }
+        }
     </style>
 
     <link href="./css/bootstrap-responsive.css" rel="stylesheet">
 
-	<script type="text/javascript" src="js/jquery.js"></script>
-	<link href="./css/jquery.snippet.min.css" rel="stylesheet">
-	<script type="text/javascript" src="js/snippet/jquery.snippet.min.js"></script>
+    <link href="./css/jquery.snippet.min.css" rel="stylesheet">
 
-      <script src="../src/fucksvg.js"></script>
-      <script src="../src/fucksvg.element.js"></script>
-      <script src="../src/fucksvg.abstractnode.js"></script>
-      <script src="../src/fucksvg.animation.js"></script>
-      <script src="../src/fucksvg.container.js"></script>
-      <script src="../src/fucksvg.layout.js"></script>
-      <script src="../src/fucksvg.link.js"></script>
-      <script src="../src/fucksvg.node.js"></script>
-      <script src="../src/fucksvg.util.js"></script>
-      <script src="../src/fucksvg.databox.js"></script>
 
-	<script type="text/javascript" src="js/menu.js"></script>
-	<script id='code'>
-		
-		/*
-		 * Usage:
-		 * <script type="text/javascript" src="jquery.js"> < /script>
-		 * <script type="text/javascript" src="jtopo-0.3.0-min.js"> </ script>
-		 */
+    <style>
+        canvas {
+            background-color:#EEEEEE;
+            border:1px solid #444;
+        }
+    </style>
+</head>
 
-		$(document).ready(function(){					
-			var box = new JTopo.DataBox('dataBox', $("#canvas")[0]);
-			box.isShowRange = false;
-			var node = new JTopo.Node('Hello world!');
-			node.setLocation(0, 0);
-			box.add(node);
+<body>
 
-			box.updateView();
-		});
-	</script>
-	<style>
-		canvas {
-			background-color:#EEEEEE;
-			border:1px solid #444;
-		}
-	</style>
-  </head>
-
-  <body>
-
-    <div class="navbar navbar-inverse navbar-fixed-top">
-      <div class="navbar-inner">
+<div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar-inner">
         <div class="container-fluid">
-          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="brand" href="#">Project name</a>
-          <div class="nav-collapse collapse">
-            <p class="navbar-text pull-right">
-              Logged in as <a href="#" class="navbar-link">Username</a>
-            </p>
-            <ul class="nav">
-              <li class="active"><a href="#">Home</a></li>
-              <li><a href="about.html">About</a></li>
-              <li><a href="contact.html">Contact</a></li>
-            </ul>
-          </div><!--/.nav-collapse -->
+            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="brand" href="#">Project name</a>
+            <div class="nav-collapse collapse">
+                <p class="navbar-text pull-right">
+                    Logged in as <a href="#" class="navbar-link">Username</a>
+                </p>
+                <ul class="nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div><!--/.nav-collapse -->
         </div>
-      </div>
     </div>
+</div>
 
-    <div class="container-fluid">
-      <div class="row-fluid">
+<div class="container-fluid">
+    <div class="row-fluid">
         <div class="span3">
-          <div class="well sidebar-nav">
-            <ul class="nav nav-list" id='Menu_ul'>
-            </ul>
-          </div><!--/.well -->
+            <div class="well sidebar-nav">
+                <ul class="nav nav-list" id='Menu_ul'>
+                </ul>
+            </div><!--/.well -->
         </div><!--/span-->
         <div class="span9">
-          <canvas id="canvas" style="" width="800" height="500"></canvas>
+            <canvas id="canvas" style="" width="800" height="500"></canvas>
         </div><!--/span-->
-      </div><!--/row-->
+    </div><!--/row-->
 
-      <hr>
+    <hr>
 
-      <footer>
+    <footer>
         <p>&copy; Company 2013</p>
-      </footer>
+    </footer>
 
-    </div><!--/.fluid-container-->
+</div><!--/.fluid-container-->
 
-  </body>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/snippet/jquery.snippet.min.js"></script>
+
+<!--<script src="../src/fucksvg.js"></script>
+<script src="../src/fucksvg.databox.js"></script>
+<script src="../src/fucksvg.element.js"></script>
+<script src="../src/fucksvg.abstractnode.js"></script>
+<script src="../src/fucksvg.animation.js"></script>
+<script src="../src/fucksvg.container.js"></script>
+<script src="../src/fucksvg.layout.js"></script>
+<script src="../src/fucksvg.link.js"></script>
+<script src="../src/fucksvg.node.js"></script>
+<script src="../src/fucksvg.util.js"></script>
+<script src="../src/fucksvg-rect.js"></script>-->
+
+<script src="../dist/fucksvg.js"></script>
+<!--<script src="../src/fucksvg.js"></script>-->
+<!--<script src="../src/fucksvg.databox.js"></script>-->
+<!--<script src="../src/fucksvg.element.js"></script>-->
+<!--<script src="../src/fucksvg.abstractnode.js"></script>-->
+<script src="../src/fucksvg.animation.js"></script>
+<!--<script src="../src/fucksvg.container.js"></script>-->
+<script src="../src/fucksvg.layout.js"></script>
+<script src="../src/fucksvg.link.js"></script>
+<!--<script src="../src/fucksvg.node.js"></script>-->
+<script src="../src/fucksvg.util.js"></script>
+<script src="../src/fucksvg-rect.js"></script>
+
+<script type="text/javascript" src="js/menu.js"></script>
+<script id='code'>
+
+    /*
+     * Usage:
+     * <script type="text/javascript" src="jquery.js"> < /script>
+     * <script type="text/javascript" src="jtopo-0.3.0-min.js"> </ script>
+     */
+
+    $(document).ready(function(){
+        var box = new Topo.DataBox('dataBox', $("#canvas")[0]);
+        box.bgcolor
+        box.isShowRange = false;
+
+        var node = new Topo.Node('Hello world!');
+        node.setLocation(0, 0);
+        box.add(node);
+
+        var rect = new Topo.Rect();
+        rect.x = 0;
+        rect.y = 0;
+        rect.width = 100;
+        rect.height = 100;
+        rect.style.fillStyle = '#09c';
+        box.add(rect);
+
+        var circle = new Topo.Circle()
+        circle.radius = 50;
+        circle.x = 0;
+        circle.y = 0;
+        circle.style.fillStyle = 'f00';
+        box.add(circle);
+
+
+
+        var defaultNode = new Topo.Node('Node');
+        defaultNode.setLocation(200, 100);
+        defaultNode.rotate = Math.PI/10;
+        box.add(defaultNode);
+
+        var tipNode = new Topo.TipNode('a tip.');
+        tipNode.setLocation(540, 100);
+        box.add(tipNode);
+
+        var textNode = new Topo.TextNode('This is a Text node.');
+        textNode.setLocation(317, 310);
+        box.add(textNode);
+
+        var peopleNode = new Topo.Node('people');
+        peopleNode.setLocation(500, 200);
+        peopleNode.setSize(64, 64);
+        peopleNode.setImage('./img/person.png');
+        box.add(peopleNode);
+
+        var circleNode = new Topo.CircleNode()
+        circleNode.style.fillStyle = '0, 0, 255';
+        circleNode.setLocation(390, 90);
+        box.add(circleNode);
+
+        var heartNode = new Topo.HeartNode();
+        heartNode.style.fillStyle = '255, 0, 0';
+        heartNode.setLocation(300, 170);
+        box.add(heartNode);
+
+        box.updateView();
+    });
+</script>
+</body>
 </html>

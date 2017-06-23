@@ -3,8 +3,4 @@
  * Licensed under MIT
  */
 
-var Fucksvg = {
-	version: '0.3.0'
-};
 
-var JTopo = Fucksvg;

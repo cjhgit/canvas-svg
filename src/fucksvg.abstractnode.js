@@ -3,87 +3,88 @@
  * Licensed under MIT
  */
 
-(function(Fucksvg){
-	/**
-	 * Abstract node object
-	 * @param {int} id
-	 * @param {String} name
-	 */
-	function AbstractNode(name) {
-		this.id = null;
-		this.x = 0;
-		this.y = 0;
-		this.width = 0;
-		this.height = 0;
-		this.visible = true;
-		this.dragable = true;
+import Element from './fucksvg.element'
 
-		this.name = name;
-		this.image = null;
-		this.color = null;
-		this.layout = null;
-		this.gravitate = null;//function(){};
-		this.parentContainer = null;
-		this.inContainer = null;
-		this.outContainer = null;
-		this.fixed = false;
-	};
+class AbstractNode extends Element {
+    constructor(name) {
+        super();
 
-	AbstractNode.prototype = new Fucksvg.Element();
+        this.id = null;
+        this.x = 0;
+        this.y = 0;
+        this.width = 0;
+        this.height = 0;
+        this.visible = true;
+        this.dragable = true;
 
-	AbstractNode.prototype.getName = function(){
-		return this.name;
-	};
+        this.name = name;
+        this.image = null;
+        this.color = null;
+        this.layout = null;
+        this.gravitate = null;//function(){};
+        this.parentContainer = null;
+        this.inContainer = null;
+        this.outContainer = null;
+        this.fixed = false;
 
-	AbstractNode.prototype.setName = function(n){
-		this.name = n;
-		return this;
-	};
 
-	AbstractNode.prototype.getImage = function(){
-		return this.image;
-	};
+    }
 
-	AbstractNode.prototype.setImage = function(i){
-		var node = this;
-		if(typeof i == 'string'){
-			var img = this.image = new Image();
-			this.image.onload = function(){
-				node.setSize(img.width, img.height);
-			};
-			this.image.src = i;
-		}else{
-			this.image = i;
-		}
-	};
 
-	var ImageCache = {};
-	AbstractNode.prototype.getTypeImage = function(type){
-		var typeImages = {
-			'zone' : './img/zone.png',
-			'host' : './img/host.png',
-			'vm' : './img/vm.png'
-		};
-		if(ImageCache[type]){
-			return ImageCache[type];
-		}
-		var src = typeImages[type];
-		if(src == null) return null;
 
-		var image = new Image();
-		image.src = src;
-		return ImageCache[type] = image;
-	};
+    getName() {
+        return this.name;
+    }
 
-	AbstractNode.prototype.getType = function(){
-		return this.type;
-	};
+    setName(n){
+        this.name = n;
+        return this;
+    }
 
-	AbstractNode.prototype.setType = function(type){
-		this.type = type;
-		this.setImage(this.getTypeImage(type));
-	};
+    getImage(){
+        return this.image;
+    }
 
-    Fucksvg.AbstractNode = AbstractNode;
+    setImage(i){
+        var node = this;
+        if(typeof i == 'string'){
+            var img = this.image = new Image();
+            this.image.onload = function(){
+                node.setSize(img.width, img.height);
+            };
+            this.image.src = i;
+        }else{
+            this.image = i;
+        }
+    }
 
-})(Fucksvg);
+    getTypeImage(type) {
+        var typeImages = {
+            'zone' : './img/zone.png',
+            'host' : './img/host.png',
+            'vm' : './img/vm.png'
+        };
+        if(AbstractNode.ImageCache[type]){
+            return AbstractNode.ImageCache[type];
+        }
+        var src = typeImages[type];
+        if(src == null) return null;
+
+        var image = new Image();
+        image.src = src;
+        return AbstractNode.ImageCache[type] = image;
+    }
+
+    getType() {
+        return this.type;
+    }
+
+    setType(type) {
+        this.type = type;
+        this.setImage(this.getTypeImage(type));
+    }
+}
+
+AbstractNode.ImageCache = {};
+
+export default AbstractNode;
