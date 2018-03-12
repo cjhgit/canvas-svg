@@ -1,8 +1,8 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 
-const Editor = resolve => require(['@/components/Editor'], resolve)
-const Help = resolve => require(['@/components/Help'], resolve)
+const Editor = resolve => require(['@/views/Editor'], resolve)
+const Help = resolve => require(['@/views/Help'], resolve)
 
 Vue.use(Router)
 
