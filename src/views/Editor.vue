@@ -1,5 +1,11 @@
 <template>
     <div class="page page-home">
+        <ui-appbar class="appbar" title="21212" v-if="false">
+            <div slot="left">
+                21212
+            </div>
+            <ui-icon-button icon="close" slot="right" />
+        </ui-appbar>
         <header id="layout-header" class="layout-header navbar navbar-light" role="navigation">
             <div class="container">
                 <div class="navbar-header">
@@ -48,7 +54,6 @@
                                         </svg>
                                         <div class="name">圆</div>
                                     </li>
-
                                 </ul>
                             </ul>
                         </li>
@@ -58,14 +63,9 @@
                             </a>
                             <ul class="dropdown-menu dropdown-menu-right">
                                 <li><router-link to="/help" target="_blank">帮助页面</router-link></li>
-                                <!--<li><a href="help.html" target="_blank">帮助页面</a></li>-->
                                 <li><a href="/" target="_blank">更多工具</a></li>
                                 <li><a href="#" @click="about">关于</a></li>
                             </ul>
-                        </li>
-                        <li class="nav-item navbar-form">
-                            <button id="quick-help" class="btn btn-info" href="#">快速导航</button>
-                            <button class="btn btn-info" href="#" @click.prevent="makeUseCase">生成用例图</button>
                         </li>
                     </ul>
                     <ul class="nav navbar-nav pull-right">
@@ -102,6 +102,7 @@
             <button class="btn btn-default" data-type="polygon" data-toggle="tooltip" title="多边形"><i class="draw-icon draw-icon-polygon"></i></button>
             <button class="btn btn-default" data-type="start" data-toggle="tooltip" title="星形"><i class="draw-icon draw-icon-star"></i></button>
             <button class="btn btn-default" data-type="text" data-toggle="tooltip" title="文字"><i class="draw-icon draw-icon-text"></i></button>
+            <button class="btn btn-default" data-toggle="tooltip" title="插入图片" @click="insertImage">插入图片</button>
         </span>
                 <span id="pen-tools" class="pen-tools">
             <h4 class="title">钢笔工具</h4>
@@ -116,7 +117,7 @@
             </div>
         </div>
         <div id="layout-body" class="layout-body">
-            <div class="shape-box bootstro" data-bootstro-width="200px" data-bootstro-title="组件栏" data-bootstro-content="点击插入组件，也可以直接拖拽到右边编辑区" data-bootstro-placement="right">
+            <div class="shape-box">
                 <!--panel-group-->
                 <div class="" id="accordion">
                     <div class="panel panel-default">
@@ -346,29 +347,9 @@
                     </div>
                 </div>
             </div>
-            <!--<div class="layout-left">
-                <ul id="tool-tab" class="nav nav-tabs">
-                    <div class="nav-item active"><a id="tab-style" class="nav-link" href="#tab11" data-toggle="tab">编辑</a></div>
-                    <div class="nav-item"><a class="nav-link" href="#tab12" data-toggle="tab">外观</a></div>
-                    <div class="nav-item"><a id="tab-index" class="nav-link" href="#tab13" data-toggle="tab">文档</a></div>
-                    <div class="nav-item"><a class="nav-link" href="#tab14" data-toggle="tab">其他</a></div>
-                </ul>
-                <div class="tab-content">
-                    <div id="tab11" class="tab-pane fade active in">
-                        <div class="form-horizontal">
-                            <div>1212</div>
-                        </div>
-                    </div>
-                    <div id="tab12" class="tab-pane fade">
-                        <div class="form-horizontal">
-                            <div>343444</div>
-                        </div>
-                    </div>
-                </div>
-            </div>-->
             <div id="workplace-box" class="workplace-box">
                 <div id="workplace" class="workplace">
-                    <div id="svg-box" class="svg-box bootstro"  data-bootstro-step='1' data-bootstro-width="200px" data-bootstro-title="编辑区" data-bootstro-content="可以在这里编辑形状" data-bootstro-placement="right">
+                    <div id="svg-box" class="svg-box">
                         <canvas id="bg-canvas" class="canvas"></canvas>
                         <svg id="svg" class="svg" viewBox="0 0 700 500"
                              xmlns="http://www.w3.org/2000/svg" version="1.1">
@@ -929,10 +910,13 @@ stop-opacity:1"/>
         </div>
         <!-- 左侧拖拽时用到 -->
         <div id="asd" style="display: none"></div>
+        <my-template />
     </div>
 </template>
 
 <script>
+    const Intent = window.Intent
+
     export default {
         data () {
             return {
@@ -1029,6 +1013,16 @@ stop-opacity:1"/>
                     item: '.btn'
                 });
 
+                // 预览
+                $('#display-show').on('click', function () {
+                    et.preview();
+                    $('#preview-box').show();
+                });
+                $('#preview-close').on('click', function (e) {
+                    e.preventDefault();
+                    $('#preview-box').hide();
+                });
+
                 // 全屏
                 var isFullScreen = false;
 
@@ -1043,16 +1037,6 @@ stop-opacity:1"/>
                         docElm.webkitRequestFullScreen();
                     }
                 }
-
-                // 预览
-                $('#display-show').on('click', function () {
-                    et.preview();
-                    $('#preview-box').show();
-                });
-                $('#preview-close').on('click', function (e) {
-                    e.preventDefault();
-                    $('#preview-box').hide();
-                });
 
                 // 全屏
                 $("#fullscreen").click(function () {
@@ -1081,16 +1065,6 @@ stop-opacity:1"/>
                 });
 
                 document.onselectstart=new Function("event.returnValue=false;");
-
-                // 快速导航
-                $('#quick-help').on('click', function (e) {
-                    e.preventDefault();
-                    bootstro.start('.bootstro', {
-                        nextButtonText: '继续 >>',
-                        prevButtonText: '<< 返回',
-                        finishButtonText: '关闭'
-                    });
-                });
 
                 $("[data-toggle='tooltip']").tooltip();
 
@@ -1239,8 +1213,18 @@ stop-opacity:1"/>
                     }
                 });
             },
-            makeUseCase() {
-
+            insertImage() {
+                let intent = new Intent({
+                    action: 'http://webintent.yunser.com/pick',
+                    type: 'image/*'
+                })
+                navigator.startActivity(intent, data => {
+                    console.log('成功了')
+                    
+                    this.content = data
+                }, data => {
+                    console.log('失败')
+                })
             }
         }
     }
